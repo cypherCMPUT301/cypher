@@ -45,3 +45,8 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
+abstract class shape(
+    var x: Int,
+    var y: Int
+){}
