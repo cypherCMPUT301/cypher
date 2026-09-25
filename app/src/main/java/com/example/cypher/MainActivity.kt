@@ -46,7 +46,10 @@ fun GreetingPreview() {
     }
 }
 
-abstract class shape(
+abstract class Shape(
     var x: Int,
     var y: Int
 ){}
+
+class Square(x: Int, y: Int, var width: Int) : Shape(x,y)
+
