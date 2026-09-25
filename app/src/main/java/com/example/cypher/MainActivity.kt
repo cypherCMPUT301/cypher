@@ -50,8 +50,8 @@ abstract class Shape(
     var x: Int,
     var y: Int
 ) {
-    val color: String = "blue"
+    val color: String = "Red"
 }
 
-class Square(x: Int, y: Int, var width: Int) : Shape(x,y)
+class Square(x: Int, y: Int, var width: Int) : Shape(x, y)
 
