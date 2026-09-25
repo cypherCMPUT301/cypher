@@ -49,4 +49,6 @@ fun GreetingPreview() {
 abstract class shape(
     var x: Int,
     var y: Int
-){}
+){
+    val color: String = "blue"
+}
