@@ -48,7 +48,8 @@ fun GreetingPreview() {
 
 abstract class Shape(
     var x: Int,
-    var y: Int
+    var y: Int,
+    val colour: String = "Red"
 ){}
 
 class Square(x: Int, y: Int, var width: Int) : Shape(x,y)
